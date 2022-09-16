@@ -434,7 +434,12 @@ a:focus {
         padding: 10px 15px;
         letter-spacing: 1px;
     }
-   
+    #pankajimg{
+        width: 100%;
+        height: 80%;
+        border-radius: 50%;
+        margin-left: 50%;
+    }
    
 }
 

@@ -372,6 +372,7 @@ a:focus {
     height: 80%;
     border-radius: 50%;
     margin-left: 50%;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 991.98px) {

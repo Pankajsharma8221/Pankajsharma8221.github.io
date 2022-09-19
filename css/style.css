@@ -213,7 +213,13 @@ a:focus {
     .navbar .navbar-brand {
         color: #ffffff;
     }
-    
+    /* @media all and (min-width: 600px) and (max-width: 1200px){
+        .about-img>img{
+            border: 1px solid red;
+            margin-bottom: 300px;
+        }
+    } */
+
     .navbar.nav-sticky .navbar-brand {
         color: rgba(1, 35, 60, .43);
     }
@@ -610,9 +616,9 @@ a:focus {
     margin-top: 15px;
 }
 
-@media (max-width: 991.98px) {
+@media all and (min-width:540px) and (max-width: 991.98px) {
     .about .about-content {
-        padding: 45px 15px 0 15px;
+        padding: 240px 15px 0 15px;
     }
 }
 
@@ -1015,81 +1021,6 @@ a:focus {
     visibility: visible;
   }
 
-
-/*******************************/
-/*********** Blog CSS **********/
-/*******************************/
-.blog {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
-}
-
-.blog .blog-item {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.blog .blog-img {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-
-.blog .blog-img img {
-    width: 100%;
-    transition: .5s;
-}
-
-.blog .blog-item:hover img {
-    transform: scale(1.1);
-}
-
-.blog .blog-text {
-    position: relative;
-    padding: 30px;
-    border-right: 1px solid rgba(0, 0, 0, .07);
-    border-bottom: 1px solid rgba(0, 0, 0, .07);
-    border-left: 1px solid rgba(0, 0, 0, .07);
-}
-
-.blog .blog-text h2 {
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.blog .blog-text p {
-    margin-bottom: 10px;
-}
-
-.blog .blog-item a.btn {
-    margin-top: 10px;
-    padding: 8px 15px;
-}
-
-.blog .blog-item a.btn i {
-    margin-left: 5px;
-}
-
-.blog .blog-meta {
-    position: relative;
-    display: flex;
-    margin-bottom: 15px;
-}
-
-.blog .blog-meta p {
-    margin: 0 10px 0 0;
-    font-size: 13px;
-}
-
-.blog .blog-meta i {
-    color: #414141;
-    margin-right: 5px;
-}
-
-.blog .blog-meta p:last-child {
-    margin: 0;
-}
 
 
 /*******************************/

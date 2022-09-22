@@ -749,16 +749,17 @@ a:focus {
 
   .newbox{
 
-    border: 10px solid rgb(9, 10, 10); 
-    /* background-color: rgb(17, 123, 177); */
-    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    border: 6px solid rgb(37, 34, 196); 
+    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
    
 
   }
   .number{
     border-radius: 50%;
-    border: 3px solid rgb(170, 12, 185);
+    border: 3px solid rgb(12, 18, 185);
   }
+
+  /* advantage end  */
 /*******************************/
 /******* Experience CSS ********/
 /*******************************/

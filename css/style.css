@@ -1147,3 +1147,135 @@ a:focus {
         margin: 4%;
     } */
 }
+
+
+
+/* my advantage */
+
+.box-container-my2{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 90%;
+    margin: auto;
+    gap: 30px;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+  }
+
+  
+@media all and (min-width: 320px) and (max-width: 767px) {
+   
+.box-container-my2{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+
+   
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .box-container-my2{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        
+       
+      }
+}
+  
+  .newbox{
+    position: relative;
+    width: 240px;
+    height: 270px;
+    padding: 20px;
+
+    
+    border-radius: 20px;
+
+    background: #fff;
+    box-shadow: 0 3px 10px var(--secondary-color-light);
+
+  }
+  .percent{
+    position: relative;
+    height: 150px;
+    /* width: 150px; */
+  
+  }
+  .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+  }
+  .percent svg circle{
+
+    fill:  none;
+    stroke-width: 10;
+
+    transform: translate(5px,5px);
+
+    stroke-linecap: round;
+  }
+  .percent svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+
+  
+  }
+  .percent svg circle:nth-child(2){
+    stroke-dashoffset: 0;
+    stroke:var(--secondary-color);
+    
+  }
+  .percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+  }
+  .percent .number h2{
+    font-size: 35px;
+  
+  }
+  .tech-heading{
+    font-weight: var(--bold-font);
+    /* color: #444; */
+  }
+  .percent .number h2 span{
+    font-size: 14px;
+  }
+  .text{
+    padding: 10px 0 0;
+    color: rgb(14, 4, 4);
+    font-weight:100px;
+    letter-spacing: 1px;
+    
+  
+  }
+  
+  #git ,#adv, #skillhead{
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  #git ,#adv, #skillhead{
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .newbox{
+
+    border: 10px solid rgb(9, 10, 10); 
+    /* background-color: rgb(17, 123, 177); */
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+   
+
+  }
+  .number{
+    border-radius: 50%;
+    border: 3px solid rgb(170, 12, 185);
+  }

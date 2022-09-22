@@ -780,11 +780,23 @@ a:focus {
    
 
   }
+  .newbox:hover{
+
+    border: 6px solid rgb(34, 150, 196); 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,65,1) 38%, rgba(0,212,255,1) 100%);
+   
+
+  }
   .number{
     border-radius: 50%;
     border: 3px solid rgb(12, 18, 185);
   }
 
+  .number:hover{
+    border-radius: 50%;
+    border: 3px solid  rgb(34, 150, 196);
+  }
   /* advantage end  */
 /*******************************/
 /******* Experience CSS ********/

@@ -652,6 +652,19 @@ a:focus {
 
    
   }
+  .newbox{
+    position: relative;
+    width: 240px;
+    height: 270px;
+    padding: 20px;
+
+    
+    border-radius: 20px;
+
+    background: #fff;
+    box-shadow: 0 3px 10px var(--secondary-color-light);
+
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px){
@@ -660,6 +673,19 @@ a:focus {
         grid-template-columns: repeat(2,auto);
         
        
+      }
+      .newbox{
+        position: relative;
+        width: 240px;
+        height: 270px;
+        padding: 20px;
+    
+        
+        border-radius: 20px;
+    
+        background: #fff;
+        box-shadow: 0 3px 10px var(--secondary-color-light);
+    
       }
 }
   
